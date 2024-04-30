@@ -1,13 +1,13 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -pthread
 
-all: main
+all: exercicio_1
 
-main: main.o
-	$(CC) $(CFLAGS) -o main main.o
+exercicio_1: exercicio_1.o
+	$(CC) $(CFLAGS) -o exercicio_1 exercicio_1.o
 
-main.o: main.c
-	$(CC) $(CFLAGS) -c main.c
+exercicio_1.o: exercicio_1.c
+	$(CC) $(CFLAGS) -c exercicio_1.c
 
 clean:
-	rm -f main main.o
+	rm -f exercicio_1 exercicio_1.o
