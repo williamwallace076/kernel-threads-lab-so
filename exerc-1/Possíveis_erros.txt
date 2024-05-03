@@ -1,0 +1,4 @@
+A variável thread1 esta sendo usanda, mas nao foi instanciada corretamente, resultando em erro de compilação.
+
+
+A função thread_fn não foi definida no código resultando tambem em um erro de compilação.
